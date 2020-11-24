@@ -1,9 +1,9 @@
-type PROJECT_GQL_CONFIG = {
-  manager: Boolean
-  provider: Boolean
-  resident: Boolean
-  web: Boolean
-  mobile: Boolean
+interface PROJECT_GQL_CONFIG = {
+  manager: boolean
+  provider: boolean
+  resident: boolean
+  web: boolean
+  mobile: boolean
 }
 
 export class ConditionalField {
