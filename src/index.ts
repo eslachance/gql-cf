@@ -1,4 +1,4 @@
-interface PROJECT_GQL_CONFIG = {
+interface PROJECT_GQL_CONFIG {
   manager: boolean
   provider: boolean
   resident: boolean
