@@ -1,6 +1,6 @@
 {
   "name": "gql-cf",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A GraphQL Conditional Fields utility using template literals",
   "main": "dist",
   "files": [
