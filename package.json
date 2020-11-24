@@ -1,0 +1,24 @@
+{
+  "name": "gql-cf",
+  "version": "0.0.1",
+  "description": "A GraphQL Conditional Fields utility using template literals",
+  "main": "dist",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "yarn build"
+  },
+  "keywords": [
+    "graphql",
+    "gql",
+    "queries"
+  ],
+  "author": "Evelyne Lachance <eslachance@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  }
+}
